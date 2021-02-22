@@ -1,7 +1,7 @@
 {
   "name": "ratatouille-cli",
   "description": "CLI for ratatouille nodejs all recipies scraper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "koleok <kchamb3@gmail.com>",
   "bin": {
     "rat": "./bin/run"

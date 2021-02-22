@@ -15,11 +15,11 @@ CLI for ratatouille nodejs all recipies scraper
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @koleok/ratatouille-cli
+$ npm install -g ratatouille-cli
 $ rat COMMAND
 running command...
 $ rat (-v|--version|version)
-@koleok/ratatouille-cli/0.0.0 linux-x64 node-v14.15.4
+ratatouille-cli/0.0.1 linux-x64 node-v14.15.4
 $ rat --help [COMMAND]
 USAGE
   $ rat COMMAND
