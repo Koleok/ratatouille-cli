@@ -28,7 +28,12 @@ class RatatouilleCli extends Command {
   async run() {
     const { args, flags } = this.parse(RatatouilleCli)
 
-    ratatouille(args.url)
+    const url = /^[0-9]*$/.test(args.url)
+      ? // if a recipie id was passed try it assuming it is valid
+        `https://www.allrecipes.com/recipe/${args.url}`
+      : args.url
+
+    ratatouille(url)
       .then(res =>
         flags.markdown ? format(toMarkdown(res), { parser: 'markdown' }) : res
       )

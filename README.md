@@ -1,5 +1,4 @@
-ratatouille-cli
-===============
+# ratatouille-cli
 
 CLI for ratatouille nodejs all recipies scraper
 
@@ -9,11 +8,16 @@ CLI for ratatouille nodejs all recipies scraper
 [![License](https://img.shields.io/npm/l/ratatouille-cli.svg)](https://github.com/Koleok/ratatouille-cli/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [ratatouille-cli](#ratatouille-cli)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g ratatouille-cli
 $ rat COMMAND
@@ -25,8 +29,11 @@ USAGE
   $ rat COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
 
 <!-- commandsstop -->
