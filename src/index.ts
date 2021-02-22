@@ -1,4 +1,4 @@
-import ratatouille from 'ratatouille'
+import ratatouille from '@koleok/ratatouille'
 import { format } from 'prettier'
 import { Command, flags } from '@oclif/command'
 

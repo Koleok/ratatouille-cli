@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/Koleok/ratatouille-cli/issues",
   "dependencies": {
+    "@koleok/ratatouille": "git+ssh://git@github.com/Koleok/ratatouille.git",
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
