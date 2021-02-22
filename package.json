@@ -1,5 +1,5 @@
 {
-  "name": "@koleok/ratatouille-cli",
+  "name": "ratatouille-cli",
   "description": "CLI for ratatouille nodejs all recipies scraper",
   "version": "0.0.0",
   "author": "koleok <kchamb3@gmail.com>",
