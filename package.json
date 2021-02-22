@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
+    "@types/cheerio": "^0.22.24",
     "@types/common-tags": "^1.8.0",
     "@types/markdown-table": "^2.0.0",
     "@types/node": "^10",

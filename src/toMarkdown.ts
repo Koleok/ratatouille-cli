@@ -1,5 +1,5 @@
 import table from 'markdown-table'
-import type { Recipie } from '@koleok/ratatouille'
+import type { Recipie } from '@koleok/ratatouille/lib/types'
 
 const arrToMdList = (xs: string[], char: string = '-') =>
   xs.reduce((res, item) => `${res}${char} ${item}\n`, '')
